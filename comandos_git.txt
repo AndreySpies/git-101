@@ -1,0 +1,42 @@
+﻿.------------ Configurando Usuário ------------
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+Listar diretório atual: pwd
+Listar pastas contidas no diretório atual: ls
+Listar pastas ocultas: ls -la
+Ir para pasta acima: cd ..
+Entrar na pasta "X": cd Downloads -ou- cd "Google Drive"
+Criar diretórios: mkdir [nome da pasta]
+Iniciar Repositório Git: git init
+Verificar status do Git: git status
+Remover Git de diretório: rm rf .git/   --- rm = "remove", rf = "forçar"
+limpar linha de comando: clear
+
+------------ Comandos Git ------------
+Adicionar arquivo ao 'rastreamento': git add [nome_do_arquivo.extensão]
+Adicionar todos os arquivos ao "rastreamento": git add .
+Commitar: git commit -m "[mensagem]"
+Ir para commit anterior: git checkout [commit id]
+Ir para o commit atual: git checkout master
+Clonar um projeto: git clone [url.git]
+Visualizar modificações: git diff [nome do arquivo]
+
+------ Criando Repositório ------
+git remote add origin [url]
+git push origin master
+
+------------ Estágios Git ------------
+Modified: "Modificado", significa que você alterou o arquivo,
+mas ainda não efetuou o "commit".
+Staged: "Selecionados", significa que você marcou um arquivo
+modificado na versão corrente para fazer parto do seu próximo "commit".
+Commited: "Gravado", significa que o dado está armazenado com
+segurança localmente.
+
+------------ BitBucket ------------
+git init (inicializa um repositório GIT)
+git add --all (adiciona todos os arquivos ao GIT)
+git remote add origin LINK_PARA_REPOSITORIO (este link você consegue no próprio Bitbucket na página do projeto)
+git commit -m "Commit inicial" (cria um commit inicial)
+git push -u origin master (envia seu projeto para a branch master, se tive routra branch, mude o nome)
