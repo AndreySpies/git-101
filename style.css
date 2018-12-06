@@ -1,8 +1,10 @@
 body {
 	margin: 0;
 	font-family: Helvetica;
+	background-color: red;
 }
 #container {
+	color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
